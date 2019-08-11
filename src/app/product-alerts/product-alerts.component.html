@@ -1,1 +1,1 @@
-<span *ngIf="product.price > 700" style="margin-left: 10px;"><button>Notify Me</button></span>
+<span *ngIf="product.price > 700" (click)="notify.emit()" style="margin-left: 10px;"><button>Notify Me</button></span>
